@@ -1,22 +1,9 @@
-# IMDb Movie Information Fetcher - @T7C
-
-## Giới thiệu
-IMDb Movie Information Fetcher là một công cụ đơn giản được viết bằng Python để truy xuất thông tin chi tiết về bộ phim từ cơ sở dữ liệu IMDb. Sử dụng thư viện `IMDbPY`, công cụ này cho phép bạn tìm kiếm bộ phim và lấy thông tin như tiêu đề, năm phát hành, thể loại, đạo diễn, diễn viên, đánh giá, và nhiều thông tin khác.
-
-
-## Cài đặt
-Để sử dụng công cụ này, bạn cần cài đặt thư viện `IMDbPY`. Bạn có thể cài đặt nó bằng cách sử dụng pip:
-
-```bash
-pip install IMDbPY
-```
-
-
-## Sử dụng
-
-``bash 
 from imdb import IMDb
+
+
 ia = IMDb()
+
+
 movie_name = input("Nhập tên bộ phim: ")
 movies = ia.search_movie(movie_name)
 
@@ -67,18 +54,4 @@ else:
             print("Các công ty sản xuất: N/A")
     else:
         print("Số thứ tự không hợp lệ.")
-        ```
 
-
-
-
-
-## Minh họa
-
-
-<div>
-
-    <img src="images/test.png" alt="Example Image 1" width="200" style="margin-right: 10px;" />
-    <img src="images/test1.png" alt="Example Image 2" width="200" style="margin-right: 10px;" />
-    <img src="images/test2.png" alt="Example Image 3" width="200" />
-</div>
