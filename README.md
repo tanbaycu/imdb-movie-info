@@ -14,7 +14,8 @@ pip install IMDbPY
 
 ## Sử dụng
 
-``bash 
+```bash 
+
 from imdb import IMDb
 ia = IMDb()
 movie_name = input("Nhập tên bộ phim: ")
@@ -67,8 +68,8 @@ else:
             print("Các công ty sản xuất: N/A")
     else:
         print("Số thứ tự không hợp lệ.")
-        ```
-
+        
+```
 
 
 
@@ -77,7 +78,6 @@ else:
 
 
 <div>
-
     <img src="images/test.png" alt="Example Image 1" width="200" style="margin-right: 10px;" />
     <img src="images/test1.png" alt="Example Image 2" width="200" style="margin-right: 10px;" />
     <img src="images/test2.png" alt="Example Image 3" width="200" />
